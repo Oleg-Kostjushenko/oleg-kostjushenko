@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+table {
+   border: 5px solid rgba(0, 0, 0, 0.856); 
+   text-align: center;
+   font-weight: bold;
+   margin: 30px auto;
+   box-shadow: 0 0 35px rgba(0, 0, 0, 0.7);
+   border-collapse: collapse;
+}
+
+.nombers {
+    width: 15px;
+    height: 75px;
+    text-align: center;
+    border: 2px solid #000;
+}
+
+
+.top{
+    width: 75px;
+    height: 15px;
+    border: 2px solid #000;
+}
+
+.bottom{
+    width: 75px;
+    height: 15px;
+    border: 2px solid #000;
+}
+
+.bezOtstupa {
+    width: 10px;
+    height: 10px;
+}
+.black {
+    background-color: rgb(63, 21, 1);
+}
+
+.white {
+    background-color: white;
+}
+
+img {
+    height: 50px;
+}

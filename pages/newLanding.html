@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/styleNewLanding.css">
+    <link rel="shortcut icon" href="../img/iconResume.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Landing</title>
+</head>
+<body>
+    <div class="main-nav">
+        <div class="container">
+            <div class="mobile-toggle">
+             <span></span><span></span><span></span>
+           </div>
+         <nav class="nav">
+                <ul>
+                    <li><a class="menu-item" href="#header">Головна сторінка</a></li>
+                    <li><a class="menu-item" href="#about">Про мене</a></li>
+                    <li><a class="menu-item" href="#portfolio">Освіта</a></li>
+                    <li><a class="menu-item" href="#contacts">Написати</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <header id="header">
+        <h1>Резюме</h1>
+        <h2>Костюшенко Олег</h2>
+    </header>
+    <div class="url">
+        <a href=""></a>
+    </div>
+    <div class="main">
+        <section id="about">
+            <div class="container">
+                <h2 class="heading">Про мене</h2>
+                <p class="aboutMe">
+                    Навчаюсь в Академії ШАГ, хочу спробувати кардинально нову сферу діяльності. 
+                    З програмуванням зіткнувся випадково, стало цікаво. Почав шукати інформацію, 
+                    але не так просто шукати невідомо що. Вирішив навчатися. Стараюсь дотримуватись
+                    золотого правила етикету: "Стався до людини так, як хочеш щоб ставилсь до тебе".
+                    Обожнюю працювати в дружньому колективі зі взаємодопомогою. Люблю активний 
+                    відпочинок на природі <a href="../pages/photo.html" class="url">прикольні фото!</a>.
+                </p>
+                <div class="row">
+                    <div class="column-2">
+                        <h3>Трудолюбивий</h3>
+                        <p>Люблю коли багато роботи. Коли займаєшся цікавим ділом, 
+                            цілий день може промайнути як одна година.
+                        </p>
+                        <h3>Цілеспрямований</h3>
+                        <p>
+                            Бачу ціль - не бачу перепон! Коли маю конкретну ціль, її легше досягти.
+                        </p>
+                        <h3>Позитивно налаштований</h3>
+                        <p>
+                            Переглядаю всі можливі варіанти розвитку подій, але надіюсь на краще. 
+                            Від негативу нікому легше не стало. Я - таблетка для гарного настрою!
+                        </p>
+                    </div>
+                    <div class="column-2">
+                        <img src="../img/morda.jpg" class="img-fluid img-border" alt="Моє Фото">
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="container">
+                <h2 class="heading">Освіта</h2>
+                <div class="row">
+                    <div class="portfolio-item column-3" data-descr="Малоолександрівська ЗОШ">
+                        <a target="_blanc" href="../img/ZOSH.jpg"><img src="../img/ZOSH.jpg" alt="Малоолександрівська ЗОШ" class="img-fluid"></a>
+                    </div>
+                    <div class="portfolio-item column-3" data-descr="Одеський національний медичний університет">
+                        <a target="_blanc" href="../img/logoONMEDU.png"><img src="../img/logoONMEDU.png" alt="ОНМедУ" class="img-fluid"></a>
+                    </div>
+                    <div class="portfolio-item column-3" data-descr="Медичний університет ім. Богомольця">
+                        <a target="_blanc" href="../img/logoBogomoltza.png"><img src="../img/logoBogomoltza.png" alt="Медичний університет ім. Богомольця" class="img-fluid"></a>
+                    </div>
+                    <div class="portfolio-item column-3" data-descr="Комп'ютерна академія ШАГ">
+                        <a target="_blanc" href="../img/StepLogo.png"><img src="../img/StepLogo.png"
+                                alt="Комп'ютерна академія ШАГ" class="img-fluid"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts">
+            <div class="conteiner">
+                <h2 class="heading">Написати:</h2>
+                <form name="contactForm">
+                    <div class="row">
+                        <div class="column-2">
+                            <form autocomplete="on" name="formConnection">
+                                <p>
+                                    <label for="username">Ім'я</label>
+                                    <input required name="name" class="wrongAnim" pattern="[а-яa-z]*" type="text" id="username">
+                                </p>
+                                <p>
+                                    <label for="useremail">Email</label>
+                                    <input required name="email" class="wrongAnim" type="email" id="useremail">
+                                </p>
+                                <p>
+                                    <label for="subject">Організація</label>
+                                    <input type="text" name="subject" id="useremail">
+                                </p>
+                            </div>
+                            <div class="column-2">
+                                <p>
+                                    <label for="usermessage">Текст повідомлення</label>
+                                    <textarea class="u-full-width" name="usermessage" id="usermessage"></textarea>
+                                </p>
+                                <p>
+                                    <input class="btn" type="submit" value="Відправити">
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer id="footer">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div>
+                    <p>
+                        Developed by
+                        <a href="#">Me & my mom</a>
+                    </p>
+                </div>
+                <div class="nav">
+                    <p>
+                        <a href="#header">Домашня сторінка</a>
+                        <a href="#about">Про мене</a>
+                        <a href="#portfolio">Освіта</a>
+                        <a href="#contacts">Написати</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
