@@ -37,6 +37,10 @@ nav ul{
 nav {
 	padding: 10px 5px 10px;
 }
+a {
+	text-decoration: none;
+	color: #000;
+}
 li {
 	list-style: none;
 	font-size: 15px;
@@ -47,7 +51,7 @@ li {
 .navConteiner {
 	border: 3px solid #000;
 	width: 100%;
-	margin: 10px;
+	margin: 10px 10px 20px;
 	align-self: flex-end;
 	position: relative;
 }
@@ -64,6 +68,7 @@ main {
 	flex-wrap: nowrap;
 	align-items: flex-start
 }
+
 .mainContent {
 	border: 3px solid #000;
 	width: 60%;
@@ -71,6 +76,7 @@ main {
 .list {
 	border: 3px solid #000;
 	width: 100%;
+	margin-bottom: 20px;
 }
 .portfolio {
 	border: 3px solid #000;
@@ -120,16 +126,100 @@ p {
 	body {
 		padding: 10px 20px 10px;
 	}
+	.colage {
+		margin: 20px;
+	}
 	header {
 		display: flex;
 		flex-direction: row;
 	}
 	.search {
 		float: right;
-		top: 50px;
-		right: 75px;
+		top: 75px;
+		right: 60px;
 		position: absolute;
+	}
+	.basePhoto img {
+		width: 93%;
+	}
 }
 @media (max-width: 320px) {
-
+	body {
+		font-size: 15px;
+		padding: 5px;
+		margin: 0;
+	}
+	.logo {
+		width: 50%;
+		padding: 5px;
+		margin: 0;
+		font-size: 12px;
+	}
+	.search {
+		top: 10px;
+		right: 15px;
+		width: 40%;
+	}
+	.search input {
+		width: 100%;
+	}
+	li {
+		font-size: 10px;
+		margin: 0;
+		padding: 0;
+	}
+	nav {
+		margin: 0;
+		padding: 0;
+	}
+	nav ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		padding: 0;
+		margin: 0;
+	}
+	.navConteiner {
+		margin: 15px 0 15px;
+		padding: 0;
+	}
+	header {
+		display: flex;
+		flex-direction: row;
+	}
+	#about {
+		display: flex;
+		flex-direction: column;
+	}
+	.mainContent {
+		width: 100%;
+	}
+	.basePhoto img {
+		width: 97%;
+		margin: 5px;
+	}
+	.leftContent {
+		width: 100%;
+	}
+	.list {
+		display: none;
+	}
+	.gallery {
+		margin-top: 15px;
+	}
+	.gallery img {
+		width: 40px;
+	}
+	.nonPhoto {
+		display: none;
+	}
+	.photo {
+		margin: 0;
+	}
+	.colage {
+		margin: 0;
+	}
+	p {
+		font-size: 11px;
+	}
 }
